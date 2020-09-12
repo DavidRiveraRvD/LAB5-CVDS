@@ -23,7 +23,7 @@
 		```telnet HOST PORT```
 		```telnet www.escuelaing.edu.co 80```
 	
-	![alt](RECURSOS/Primera parte 1.JPG)
+	![alt](RECURSOS/1.JPG)
 	
 3. Antes de que el servidor cierre la conexión por falta de comunicación:
 	* Revise la página 36 del RFC del protocolo HTTP, sobre cómo realizar una petición GET. Con esto, solicite al servidor el recurso ‘sssss/abc.html’, usando la versión 1.0 de HTTP.
@@ -32,8 +32,8 @@
 		```GET http://www.escuelaing.edu.co/sssss/abc.html HTTP/1.0```
 		
 	* ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
-	![alt](RECURSOS/Primera parte 2.JPG)
-	![alt](RECURSOS/Primera parte 3.JPG)
+	![alt](RECURSOS/2.JPG)
+	![alt](RECURSOS/3.JPG)
 		* ***301 Moved Permanently:*** indica que el recurso solicitado se ha movido definitivamente a la URL proporcionada por los encabezados de ubicación.
 	
 	Hay 5 tipos de estado los de tipo 100 hasta lod de tipo 500
@@ -63,7 +63,7 @@
 		```telnet www.httpbin.org 80```
 		```GET www.httpbin.org/html HTTP/1.1```
 	
-	![alt](RECURSOS/Primera parte 4.JPG)	
+	![alt](RECURSOS/4.JPG)	
 		
 	¡Muy bien!, ¡Acaba de usar del protocolo HTTP sin un navegador Web!. Cada vez que se usa un navegador, éste se conecta a un servidor HTTP, envía peticiones (del protocolo HTTP), espera el resultado de las mismas, y -si se trata de contenido HTML- lo interpreta y dibuja.
 

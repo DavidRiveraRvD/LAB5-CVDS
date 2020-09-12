@@ -31,10 +31,14 @@
 	* Revise el resultado obtenido. ¿Qué codigo de error sale?, revise el significado del mismo en la lista de códigos de estado HTTP.
 		```GET http://www.escuelaing.edu.co/sssss/abc.html HTTP/1.0```
 		
-	* ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
 	![alt](RECURSOS/2.JPG)
+	* ***400 Bad Request:*** Con los códigos de estado, un servidor web es capaz de devolver al cliente el estado actual de las solicitudes.
+	
+		
+	* ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?
+	
 	![alt](RECURSOS/3.JPG)
-		* ***301 Moved Permanently:*** indica que el recurso solicitado se ha movido definitivamente a la URL proporcionada por los encabezados de ubicación.
+		
 	
 	Hay 5 tipos de estado los de tipo 100 hasta lod de tipo 500
 

@@ -1,4 +1,4 @@
-#Laboratorio 5 - MVC Primefaces Introduction - 2020-2
+# Laboratorio 5 - MVC Primefaces Introduction - 2020-2
 
 **********************************************************
 ----------------------------------------------------------
@@ -32,7 +32,7 @@
 		```GET http://www.escuelaing.edu.co/sssss/abc.html HTTP/1.0```
 		
 	![alt](RECURSOS/2.JPG)
-	* ***400 Bad Request:*** Con los códigos de estado, un servidor web es capaz de devolver al cliente el estado actual de las solicitudes.
+		* ***400 Bad Request:*** Con los códigos de estado, un servidor web es capaz de devolver al cliente el estado actual de las solicitudes.
 	
 		
 	* ¿Qué otros códigos de error existen?, ¿En qué caso se manejarán?

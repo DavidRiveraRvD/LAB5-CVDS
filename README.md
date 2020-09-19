@@ -210,16 +210,16 @@ En este ejercicio, va a implementar una aplicación Web muy básica, haciendo us
 	mvn package
 	mvn tomcat7:run
 	```
-	![alt](5.PNG)
+	![alt](RECURSOS/5.PNG)
 	
 5. Abra un navegador, y en la barra de direcciones ponga la URL con la cual se le enviarán peticiones al ‘SampleServlet’. Tenga en cuenta que la URL tendrá como host ‘localhost’, como puerto, el configurado en el pom.xml y el path debe ser el del Servlet. Debería obtener un mensaje de saludo.
 	
 6 Observe que el Servlet ‘SampleServlet’ acepta peticiones GET, y opcionalmente, lee el parámetro ‘name’. Ingrese la misma URL, pero ahora agregando un parámetro GET (si no sabe como hacerlo, revise la documentación en http://www.w3schools.com/tags/ref_httpmethods.asp).
-	![alt](6.PNG)
+	![alt](RECURSOS/6.PNG)
 7. Busque el artefacto gson en el repositorio de maven y agregue la dependencia.
 
 8. En el navegador revise la dirección https://jsonplaceholder.typicode.com/todos/1. Intente cambiando diferentes números al final del path de la url.
-	![alt](8.PNG)
+	![alt](RECURSOS/8.PNG)
 9. Basado en la respuesta que le da el servicio del punto anterior, cree la clase edu.eci.cvds.servlet.model.Todo con un constructor vacío y los métodos getter y setter para las propiedades de los "To Dos" que se encuentran en la url indicada.
 
 10. Utilice la siguiente clase para consumir el servicio que se encuentra en la dirección url del punto anterior:
@@ -307,7 +307,7 @@ En este ejercicio, va a implementar una aplicación Web muy básica, haciendo us
 	* Si se genera la excepcion MalformedURLException devolver el código de error interno en el servidor
 	* Para cualquier otra excepcion, devolver el código equivalente a requerimiento inválido.
 
-	![alt](9.PNG)
+	![alt](RECURSOS/9.PNG)
 	
 14. Una vez hecho esto, verifique el funcionamiento de la aplicación, recompile y ejecute la aplicación.
 
@@ -351,7 +351,7 @@ Escriba una aplicación web que utilice PrimeFaces para calcular la media, la mo
 Diagrama de casos de uso de la aplicación:
 
 
-![alt](RECURSOS/Diagrama.png)	
+![alt](RECURSOS/Diagrama.PNG)	
 
 
 1. Al proyecto Maven, debe agregarle las dependencias mas recientes de javax.javaee-api, com.sun.faces.jsf-api, com.sun.faces.jsf-impl, javax.servlet.jstl y Primefaces (en el archivo pom.xml).
